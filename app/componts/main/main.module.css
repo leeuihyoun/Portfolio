@@ -42,7 +42,6 @@
 .navList li:hover {
   color: #007bff;
 }
-
 .section1 {
   min-height: 100vh;
   display: flex;
@@ -53,7 +52,8 @@
   padding: 40px 0;
   background-color: black;
 }
-.section2 {
+
+.section {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,72 +61,19 @@
   align-items: center;
   text-align: center;
   padding: 40px 0;
+
 }
 
-.section3 {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 40px 0;
+.section h2 {
+  font-weight: bold;
+  white-space: break-spaces;
+  color: #000000;
+  font-size: 4rem;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 
-.section4 {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 40px 0;
-}
-.section5 {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 40px 0;
-}
-.section2 h2 {
-  font-weight: bold;
-  white-space: break-spaces;
-  color: #000000;
-  font-size: 4rem;
-  border-bottom-color: #cccccc;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-.section3 h2 {
-  font-weight: bold;
-  white-space: break-spaces;
-  color: #000000;
-  font-size: 4rem;
-  border-bottom-color: #cccccc;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-.section4 h2 {
-  font-weight: bold;
-  white-space: break-spaces;
-  color: #000000;
-  font-size: 4rem;
-  border-bottom-color: #cccccc;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-.section5 h2 {
-  font-weight: bold;
-  white-space: break-spaces;
-  color: #000000;
-  font-size: 4rem;
-  border-bottom-color: #cccccc;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
 
 
 .aboutme {

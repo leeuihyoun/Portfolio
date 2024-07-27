@@ -48,7 +48,7 @@ export default function Mainhome() {
 
       <motion.section
         ref={aboutRef}
-        className={styles.section2}
+        className={styles.section}
         initial={{ x: -100 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
@@ -77,7 +77,7 @@ export default function Mainhome() {
 
       <motion.section
         ref={skillsRef}
-        className={styles.section3}
+        className={styles.section}
         initial={{ y: 100 }}
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
@@ -88,7 +88,7 @@ export default function Mainhome() {
 
       <motion.section
         ref={archivingRef}
-        className={styles.section4}
+        className={styles.section}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -99,7 +99,7 @@ export default function Mainhome() {
 
       <motion.section
         ref={projectRef}
-        className={styles.section5}
+        className={styles.section}
         initial={{ scale: 0.8 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1 }}
