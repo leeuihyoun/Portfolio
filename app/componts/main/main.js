@@ -89,8 +89,16 @@ export default function Mainhome() {
           <div className={styles.skillBody}>
             <div className={styles.skill}>
               <p>FrontEnd</p>
+              <div className={styles.firstline}>
               <div className={styles.skillImg}>
-
+                <img src='./static/skills/html5.png' alt='html'/>
+              </div>
+              <div className={styles.skillImg}>
+                <img src='./static/skills/css.png' alt='html'/>
+              </div>
+              <div className={styles.skillImg}>
+                <img src='./static/skills/js.png' alt='html'/>
+              </div>
               </div>
             </div>
 
