@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import styles from './main.module.css'
 
+
 export default function Mainhome() {
   const introRef = useRef(null);
   const aboutRef = useRef(null);
@@ -77,13 +78,38 @@ export default function Mainhome() {
 
       <motion.section
         ref={skillsRef}
-        className={styles.section}
+        className={styles.skillContainer}
         initial={{ y: 100 }}
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2>Skill</h2>
-        <p>JavaScript, React, Next.js, Node.js, 기타 여러 기술을 사용합니다.</p>
+        <div className={styles.skillBox}>
+
+          <div className={styles.skillTitle}><h2>Skill</h2></div>
+          <div className={styles.skillBody}>
+            <div className={styles.skill}>
+              <p>FrontEnd</p>
+              <div className={styles.skillImg}>
+
+              </div>
+            </div>
+
+            <div className={styles.skill}>
+              <p>Backend</p>
+              <div className={styles.skillImg}>
+                
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <p>Community</p>
+              <div className={styles.skillImg}>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
       </motion.section>
 
       <motion.section
