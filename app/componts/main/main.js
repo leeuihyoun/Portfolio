@@ -100,19 +100,56 @@ export default function Mainhome() {
                 <img src='./static/skills/js.png' alt='html'/>
               </div>
               </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/react.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/next.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/jquery.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/redux.png' alt='html'/>
+              </div>
             </div>
 
             <div className={styles.skill}>
               <p>Backend</p>
+              
               <div className={styles.skillImg}>
-                
+                <img src='./static/skills/java.png' alt='html'/>
               </div>
+            
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/spring.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/springboot.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/mongo.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/oracle.png' alt='html'/>
+              </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/mysql.png' alt='html'/>
+              </div>
+         
             </div>
             <div className={styles.skill}>
               <p>Community</p>
-              <div className={styles.skillImg}>
-                
+              
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/github.png' alt='html'/>
               </div>
+              <div className={styles.skillBigImg}>
+                <img src='./static/skills/figma.png' alt='html'/>
+              </div>
+            
+          
+              
             </div>
 
           </div>
@@ -128,7 +165,7 @@ export default function Mainhome() {
         transition={{ duration: 1 }}
       >
         <h2>Archiving</h2>
-        <p>GitHub, 블로그 등을 통해 작업을 아카이빙합니다.</p>
+        
       </motion.section>
 
       <motion.section
